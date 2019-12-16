@@ -1,6 +1,6 @@
-import React from "react";
-import "./card-list.css";
-import { Card } from "../card/card";
+import React from 'react'
+import './card-list.css'
+import { Card } from '../card/card'
 
 export const CardList = props => {
   return (
@@ -9,5 +9,5 @@ export const CardList = props => {
         <Card key={monster.id} monster={monster} />
       ))}
     </div>
-  );
-};
+  )
+}
